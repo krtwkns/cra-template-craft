@@ -1,5 +1,5 @@
 
-# Craft-CRA
+# Craft
 
 craft-cra (crafting and building cra for me and other) [Create React App](https://github.com/facebook/create-react-app).
 
