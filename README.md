@@ -1,33 +1,54 @@
+# cra-template-craft
 
-# Craft
+craft is CRA template powered by [Create React App](https://github.com/facebook/create-react-app).
 
-craft-cra (crafting and building cra for me and other) [Create React App](https://github.com/facebook/create-react-app).
+# Description
 
-## Development
+Because most engineers are lazy to do the same thing, craft is made to overcome laziness. Just write command and add some code, then the CRA project and their config are ready
 
-### Project Setup
+# Usage
+
+## Install App
+
+`use yarn`
+
 ```
-git clone http://github.com/kretawiweka/craft-cra
+npx create-react-app [App Name] --template craft
+```
 
+`use npx`
+
+```
+yarn create react-app [App Name] --template craft
+```
+
+## Setup Config
+
+Add this config to `package.json`
+
+```
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.19.1",
+    "redux-devtools-extension": "^2.13.8"
+  }
+```
+
+## Install Package
+
+```
 yarn install
 ```
 
-### Local Development
-```
-yarn start
-```
+# Poject Structure
 
-### Test
-```
-yarn test
-```
-
-### Build for Production
-```
-yarn build
-```
-
-## Project Structure
 ```
 src/
    ├── assets/

@@ -6,7 +6,7 @@ const MobileWrapper = styled.div`
   border: 1px solid #f5f5f5;
   max-width: 480px;
   margin: auto;
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 32px);
 `;
 
 export { MobileWrapper };
